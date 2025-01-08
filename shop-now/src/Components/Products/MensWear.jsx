@@ -113,7 +113,7 @@ const MensWear = () => {
                     {/* <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officia illum quae!</p> */}
                 </div>
                 <div>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5'>
+                    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5'>
                         {ProductsData.map((data) => (
                             <div data-aos="fade-up" data-aos-delay={data.aosDelay} key={data.id} className='space-y-3 '>
                                 <img src={data.img} alt="Cover image" className='h-[280px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300' />
