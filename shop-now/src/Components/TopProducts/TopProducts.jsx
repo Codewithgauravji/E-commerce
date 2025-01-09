@@ -2,9 +2,12 @@ import React from 'react'
 import Img1 from "../../assets/shirt.png"
 import Img2 from "../../assets/shirt2.png"
 import Img3 from "../../assets/shirt3.png"
-import Img4 from "../../assets/Jaket1.png"
-import Img5 from "../../assets/Jaket2.png"
-import Img6 from "../../assets/Suiter.png"
+import Img4 from "../../assets/jacet1.png"
+import Img5 from "../../assets/jacet2.png"
+import Img6 from "../../assets/jacet3.png"
+import Img7 from "../../assets/shous1.png"
+import Img8 from "../../assets/shous2.png"
+import Img9 from "../../assets/shous3.png"
 import {FaStar} from "react-icons/fa"
 
 const ProductsData = [
@@ -29,21 +32,39 @@ const ProductsData = [
     {
         id:4,
         img:Img4,
-        title:"Lader Jaket",
+        title:"Jacket",
         description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam natus suscipit temporibus quam, repellat debitis dolor possimus doloremque illum aliquid?"
     },
     {
         id:5,
         img:Img5,
-        title:"Winter Jaket",
+        title:"Jacket",
         description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam natus suscipit temporibus quam, repellat debitis dolor possimus doloremque illum aliquid?"
     },
     {
         id:6,
         img:Img6,
-        title:"Winter Soiter",
+        title:"Jacket",
         description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam natus suscipit temporibus quam, repellat debitis dolor possimus doloremque illum aliquid?"
-    }
+    },
+    {
+        id:7,
+        img:Img7,
+        title:"Shoes",
+        description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam natus suscipit temporibus quam, repellat debitis dolor possimus doloremque illum aliquid?"
+    },
+    {
+        id:8,
+        img:Img8,
+        title:"Shoes",
+        description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam natus suscipit temporibus quam, repellat debitis dolor possimus doloremque illum aliquid?"
+    },
+    {
+        id:9,
+        img:Img9,
+        title:"Shoes",
+        description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam natus suscipit temporibus quam, repellat debitis dolor possimus doloremque illum aliquid?"
+    },
 ]
 const TopProducts = ({handleOrderPopup}) => {
   return (
@@ -57,7 +78,7 @@ const TopProducts = ({handleOrderPopup}) => {
                 {ProductsData.map((data)=>(
                     <div data-aos="zoom-in" className='rounded-2xl text-center mt-20 bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-h-[500px] max-w-[350px]'>
                         <div>
-                            <img src={data.img} alt="" className='max-w-[230px] block mx-auto transform -translate-y-20 group-hover:scale-110 duration-300 drop-shadow-md'/>
+                            <img src={data.img} alt="" className='max-w-[230px]  block mx-auto transform -translate-y-20 group-hover:scale-110 duration-300 drop-shadow-md'/>
                         </div>
                         <div className='w-full flex items-center justify-center gap-1'>
                             <FaStar className='text-yellow-500'/>

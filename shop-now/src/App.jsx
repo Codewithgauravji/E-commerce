@@ -10,7 +10,7 @@ import Subscribe from './Components/Subscribe/Subscribe'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Footer from './Components/Footer/Footer'
 import MensWear from './Components/Products/MensWear'
-
+import Electronic from './Components/Products/Electronic'
 
 // import './App.css'
 
@@ -38,6 +38,7 @@ function App() {
         <Products/>
         <TopProducts handleOderPopup={handleOrderPopup}/>
         <MensWear/>
+        <Electronic/>
         <Banner/>
         <Subscribe/>
         <Testimonials/>
