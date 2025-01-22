@@ -23,26 +23,26 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-       duration: 800,
-        easing: 'ease-in-out',
-        delay: 100,
-        offset: 100, 
-      });
-      AOS.refresh();
+      duration: 800,
+      easing: 'ease-in-out',
+      delay: 100,
+      offset: 100,
+    });
+    AOS.refresh();
   }, []);
   return (
     <>
       <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
-        <Navbar handleOderPopup={handleOrderPopup}/>
-        <Hero handleOderPopup={handleOrderPopup}/>
-        <Products/>
-        <TopProducts handleOderPopup={handleOrderPopup}/>
-        <MensWear/>
-        <Electronic/>
-        <Banner/>
-        <Subscribe/>
-        <Testimonials/>
-        <Footer/>
+        <Navbar handleOderPopup={handleOrderPopup} />
+        <Hero handleOderPopup={handleOrderPopup} />
+        <Products />
+        <TopProducts handleOderPopup={handleOrderPopup} />
+        <MensWear />
+        <Electronic />
+        <Banner />
+        <Subscribe />
+        <Testimonials />
+        <Footer />
       </div>
     </>
   )
