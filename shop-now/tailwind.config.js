@@ -20,7 +20,7 @@ export default {
         }
       },
       // darkmode:"selector",
-  plugins: [],
+  plugins: [require('daisyui'),],
 }
 }
 }

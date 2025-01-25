@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Img1 from "../../assets/man1.jpg"
 import Img2 from "../../assets/man2.jpg"
 import Img3 from "../../assets/man3.jpg"
@@ -102,103 +102,8 @@ const ProductsData = [
         price: "1200/-",
         aosDelay: "800",
     },
-    {
-        id: 11,
-        img: Img1,
-        title: "Pant & Shirt",
-        rating: 5.0,
-        color: "Dark Blue",
-        price: "1000/-",
-        aosDelay: "0",
-    },
-    {
-        id: 12,
-        img: Img2,
-        title: "T-Shirt",
-        rating: 4.0,
-        color: "Yello",
-        price: "500/-",
-        aosDelay: "200",
-    },
-    {
-        id: 13,
-        img: Img3,
-        title: "Shirt",
-        rating: 4.5,
-        color: "Gray",
-        price: "700/-",
-        aosDelay: "400",
-    },
-    {
-        id: 14,
-        img: Img4,
-        title: "Man's Jeens",
-        rating: 4.7,
-        color: "Blue",
-        price: "900/-",
-        aosDelay: "600",
-    },
-    {
-        id: 15,
-        img: Img5,
-        title: "Pant & Shirt",
-        rating: 4.2,
-        color: "Gray",
-        price: "1300/-",
-        aosDelay: "800",
-    },
-    {
-        id: 16,
-        img: Img6,
-        title: "Formal Pant & Shirt",
-        rating: 5.4,
-        color: "Blue",
-        price: "1200/-",
-        aosDelay: "0",
-    },
-    {
-        id: 17,
-        img: Img7,
-        title: "Formal Pant & Shirt",
-        rating: 4.9,
-        color: "Blue",
-        price: "1200/-",
-        aosDelay: "200",
-    },
-    {
-        id: 18,
-        img: Img8,
-        title: "White Shirt",
-        rating: 4.0,
-        color: "White",
-        price: "600/-",
-        aosDelay: "400",
-    },
-    {
-        id: 19,
-        img: Img9,
-        title: "Formal Pant & Shirt",
-        rating: 5.7,
-        color: "Blue",
-        price: "1200/-",
-        aosDelay: "600",
-    },
-    {
-        id: 20,
-        img: Img10,
-        title: "Formal Pant & Shirt",
-        rating: 4.1,
-        color: "Blue",
-        price: "1200/-",
-        aosDelay: "800",
-    },
 ]
 const MensWear = () => {
-    const [visibleCount, setVisibleCount] = useState(10); // Initial visible cards
-
-    const handleShowMore = () => {
-        setVisibleCount((prevCount) => prevCount + 10); // Increment visible cards by 5
-    };
     return (
         <div className='mt-14 md-12'>
             <div className='container'>
@@ -224,17 +129,6 @@ const MensWear = () => {
                             </div>
                         ))}
                     </div>
-                    {visibleCount < ProductsData.length && (
-                        <div className="flex justify-center">
-                            <button
-                                onClick={handleShowMore}
-                                data-aos="fade-up"
-                                className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
-                            >
-                                Show More
-                            </button>
-                        </div>
-                    )}
                 </div>
             </div>
         </div>

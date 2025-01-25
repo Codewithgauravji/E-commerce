@@ -14,22 +14,22 @@ const Menu = [
     {
         id: 2,
         name: "Top Rated",
-        link: "/",
+        link: "/toprated",
     },
     {
         id: 3,
         name: "Kids Wear",
-        link: "/#",
+        link: "/kidswear",
     },
     {
         id: 4,
         name: "Mens Wear",
-        link: "Manswear",
+        link: "/Manswear",
     },
     {
         id: 5,
         name: "Electronics",
-        link: "/#",
+        link: "/electronics",
     },
 ];
 

@@ -9,7 +9,6 @@ import Img7 from "../../assets/shous1.png"
 import Img8 from "../../assets/shous2.png"
 import Img9 from "../../assets/shous3.png"
 import {FaStar} from "react-icons/fa"
-
 const ProductsData = [
     {
         id:1,
@@ -182,8 +181,8 @@ const TopProducts = ({handleOrderPopup}) => {
             setVisibleCount((prevCount) => prevCount + 18); // Increment visible cards by 5
         };
   return (
-    <div className='container'>
-       <div className='text-center mb-10 mt-10 mx-auto'>
+    <div className='container' >
+       <div className='text-center mb-10 mt-10 mx-auto' >
         <p data-aos="fade-up" className='text-sm text-primary'>Top Rated Products for you</p>
         <h1 data-aos="fade-up" className='text-3xl font-bold'>Best Products</h1>
         {/* <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quod eius doloremque quos quia quaerat, dolores, nisi deserunt accusamus voluptatem cum.</p> */}
