@@ -422,7 +422,7 @@ function KidsWear() {
                 <div className="mt-14 md-12">
                     <div className="container">
                         <div className="text-center mb-10 max-w-[600px] mx-auto">
-                            <h1 data-aos="fade-up" className="text-3xl font-bold">Kids Wear</h1>
+                            <h1 data-aos="fade-up" className="text-3xl font-bold">Kid's Wear</h1>
                         </div>
                         <div>
                             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
