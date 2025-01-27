@@ -3,6 +3,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown, FaBars, FaTimes } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import DarkMode from './DarkMode';
 
 const Menu = [
@@ -24,7 +25,7 @@ const Menu = [
     {
         id: 4,
         name: "Mens Wear",
-        link: "/Manswear",
+        link: "/menswear",
     },
     {
         id: 5,
@@ -55,10 +56,10 @@ const Navbar = ({ handleOderPopup }) => {
             <div className='bg-primary/40 py-2'>
                 <div className='container flex justify-between items-center px-4'>
                     <div>
-                        <a href="#" className='font-bold text-xl flex items-center gap-1'>
+                        <Link to="/" className='font-bold text-xl flex items-center gap-1'>
                             <FiShoppingBag size="30" />
                             ShopMe
-                        </a>
+                        </Link>
                     </div>
                     <div className='flex items-center gap-4'>
                         {/* Search */}
@@ -97,32 +98,29 @@ const Navbar = ({ handleOderPopup }) => {
                 <ul className='flex flex-col sm:flex-row items-center gap-4 px-4 py-2 '>
                     {Menu.map((item) => (
                         <li key={item.id}>
-                            <a
-                                href={item.link}
+                            <Link
+                                to={item.link}
                                 className='block px-4 py-2 text-black dark:text-white hover:text-primary transition duration-200'
                             >
                                 {item.name}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                     {/* Dropdown */}
                     <li className='relative group'>
-                        <a
-                            href="#"
-                            className='flex items-center gap-[2px] px-4 py-2 text-black dark:text-white hover:text-primary'
-                        >
+                        <div className='flex items-center gap-[2px] px-4 py-2 text-black dark:text-white hover:text-primary cursor-pointer'>
                             Trending Products <FaCaretDown className='ml-1 group-hover:rotate-180 transition duration-200' />
-                        </a>
+                        </div>
                         <div className='absolute hidden group-hover:block bg-white dark:bg-slate-800 text-black dark:text-white rounded-md shadow-lg w-[200px] py-2'>
                             <ul>
                                 {Dropdownlist.map((item) => (
                                     <li key={item.id}>
-                                        <a
-                                            href={item.link}
+                                        <Link
+                                            to={item.link}
                                             className='block px-4 py-2 hover:bg-primary/20'
                                         >
                                             {item.name}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>
