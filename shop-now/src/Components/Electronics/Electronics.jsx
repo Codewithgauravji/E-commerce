@@ -12,7 +12,7 @@ const ProductsData = [
     {
         id: 1,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -22,7 +22,7 @@ const ProductsData = [
     {
         id: 2,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -32,7 +32,7 @@ const ProductsData = [
     {
         id: 3,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -42,7 +42,7 @@ const ProductsData = [
     {
         id: 4,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -52,7 +52,7 @@ const ProductsData = [
     {
         id: 5,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -62,7 +62,7 @@ const ProductsData = [
     {
         id: 6,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -72,7 +72,7 @@ const ProductsData = [
     {
         id: 7,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -82,7 +82,7 @@ const ProductsData = [
     {
         id: 8,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -92,7 +92,7 @@ const ProductsData = [
     {
         id: 9,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -102,7 +102,7 @@ const ProductsData = [
     {
         id: 10,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -112,7 +112,7 @@ const ProductsData = [
     {
         id: 11,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -122,7 +122,7 @@ const ProductsData = [
     {
         id: 12,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -132,7 +132,7 @@ const ProductsData = [
     {
         id: 13,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -142,7 +142,7 @@ const ProductsData = [
     {
         id: 14,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -152,7 +152,7 @@ const ProductsData = [
     {
         id: 15,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -162,7 +162,7 @@ const ProductsData = [
     {
         id: 16,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -172,7 +172,7 @@ const ProductsData = [
     {
         id: 17,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -182,7 +182,7 @@ const ProductsData = [
     {
         id: 18,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -192,7 +192,7 @@ const ProductsData = [
     {
         id: 19,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -202,7 +202,7 @@ const ProductsData = [
     {
         id: 20,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -212,7 +212,7 @@ const ProductsData = [
     {
         id: 21,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -222,9 +222,8 @@ const ProductsData = [
     {
         id: 22,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -232,7 +231,7 @@ const ProductsData = [
     {
         id: 23,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -242,7 +241,7 @@ const ProductsData = [
     {
         id: 24,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -252,7 +251,7 @@ const ProductsData = [
     {
         id: 25,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -262,7 +261,7 @@ const ProductsData = [
     {
         id: 26,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -272,7 +271,7 @@ const ProductsData = [
     {
         id: 27,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -282,9 +281,11 @@ const ProductsData = [
     {
         id: 28,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
+        rating3: <FaStar className='text-yellow-400 ' />,
+        rating4: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -292,7 +293,7 @@ const ProductsData = [
     {
         id: 29,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -302,9 +303,10 @@ const ProductsData = [
     {
         id: 30,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
+        rating3: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -312,7 +314,7 @@ const ProductsData = [
     {
         id: 31,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -322,7 +324,7 @@ const ProductsData = [
     {
         id: 32,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -332,7 +334,7 @@ const ProductsData = [
     {
         id: 33,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -342,7 +344,7 @@ const ProductsData = [
     {
         id: 34,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -352,7 +354,7 @@ const ProductsData = [
     {
         id: 35,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -362,9 +364,10 @@ const ProductsData = [
     {
         id: 36,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
+        rating3: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -372,9 +375,8 @@ const ProductsData = [
     {
         id: 37,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -382,9 +384,11 @@ const ProductsData = [
     {
         id: 38,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
+        rating3: <FaStar className='text-yellow-400 ' />,
+        rating4: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -392,7 +396,7 @@ const ProductsData = [
     {
         id: 39,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
@@ -402,9 +406,10 @@ const ProductsData = [
     {
         id: 40,
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
-        title: "Women Ethnic",
+        title: "Electric",
         rating1: <FaStar className='text-yellow-400 ' />,
         rating2: <FaStar className='text-yellow-400 ' />,
+        rating3: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
         aosDelay: "0",

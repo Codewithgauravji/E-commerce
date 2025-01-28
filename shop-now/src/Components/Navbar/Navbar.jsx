@@ -32,6 +32,11 @@ const Menu = [
         name: "Electronics",
         link: "/electronics",
     },
+    {
+        id: 6,
+        name: "Womens Wear",
+        link: "/womenwear",
+    },
 ];
 
 const Dropdownlist = [

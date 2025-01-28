@@ -5,6 +5,7 @@ import TopRated from './Components/TopRated/TopRated';
 import KidsWear from './Components/KidsWear/KidsWear';
 import MensWears from './Components/MansWears/MensWears';
 import Electronics from './Components/Electronics/Electronics';
+import WomenWear from './Components/WomenWear/WomenWear';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/kidswear" element={<KidsWear />} />
           <Route path="/menswear" element={<MensWears />} />
           <Route path="/electronics" element={<Electronics />} />
+          <Route path="/womenwear" element={<WomenWear />} />
         </Routes>
       </Router>
     </div>
