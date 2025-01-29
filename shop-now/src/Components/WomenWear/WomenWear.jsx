@@ -427,6 +427,18 @@ const ProductsData = [
 
 
 function WomenWear() {
+     const [searchTerm, setSearchTerm] = useState("");
+        const [filteredProductsData, setFilteredProductsData] = useState(ProductsData);
+    
+        const handleSearch = () => {
+            const filtered = ProductsData.filter((product) =>
+                product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                product.price.toString().includes(searchTerm) // No need for `.toLowerCase()`
+            );
+            setFilteredProductsData(filtered);
+        };
+
+
      useEffect(() => {
             AOS.init(); // Initialize AOS animations
           }, []);
@@ -439,14 +451,27 @@ function WomenWear() {
     <>
          <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
                 <Navbar />
-                <div className="mt-14 md-12">
+                <div className="mt-4 sm:mt-12 md-12">
                     <div className="container">
                         <div className="text-center mb-10 max-w-[600px] mx-auto">
-                            <h1 data-aos="fade-up" className="text-3xl font-bold">Women's Wear</h1>
+                        <input
+                                data-aos="fade-up"
+                                type="text"
+                                placeholder="Search products..."
+                                className='w-[100%] sm:w-[400px] group-hover:w-[700px] transition-all duration-300 rounded-lg border border-gray-300 py-3 px-3 text-lg focus:outline-none focus:border-primary dark:border-gray-500 dark:bg-slate-800'
+                                value={searchTerm}
+                                onChange={(e) => {
+                                    setSearchTerm(e.target.value);
+                                    handleSearch(); // Calls search function on every input change
+                                }}
+                            />
+                            <h1 data-aos="fade-up" className="text-3xl mt-4 sm:mt-10 font-bold">Women's Wear</h1>
                         </div>
                         <div>
                             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
-                                {ProductsData.slice(0, visibleCount).map((data) => (
+                            {filteredProductsData.slice(0, visibleCount).length > 0 ? (
+                                    filteredProductsData.slice(0, visibleCount).map((data) => (
+                                    <div className=' hover:-translate-y-2.5 duration-300'>
                                     <div
                                         data-aos="fade-up"
                                         data-aos-delay={data.aosDelay}
@@ -456,7 +481,7 @@ function WomenWear() {
                                         <img
                                             src={data.img}
                                             alt="Cover image"
-                                            className="h-[280px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300"
+                                            className="h-[170px] w-[210px] object-cover rounded-m sm:h-[280px] sm:w-[210px]"
                                         />
                                         <div>
                                             <h3 className="font-semibold">{data.title}</h3>
@@ -473,7 +498,11 @@ function WomenWear() {
                                             </p>
                                         </div>
                                     </div>
-                                ))}
+                                    </div>
+                                 ))
+                                ) : (
+                                    <p>No products found</p>
+                                )}
                             </div>
                             {visibleCount < ProductsData.length && (
                                 <div className="flex justify-center">

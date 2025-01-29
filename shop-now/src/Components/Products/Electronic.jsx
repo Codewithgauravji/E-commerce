@@ -116,8 +116,9 @@ const Electronic = () => {
                 <div>
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5 '>
                         {ProductsData.map((data) => (
+                            <div className=' hover:-translate-y-2.5 duration-300'>
                             <div data-aos="fade-up" data-aos-delay={data.aosDelay} key={data.id} className='space-y-3 '>
-                                <img src={data.img} alt="Cover image" className='h-[280px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300' />
+                                <img src={data.img} alt="Cover image" className='h-[280px] w-[210px] object-cover rounded-md' />
                                 <div>
                                     <h3 className='font-semibold '>{data.title}</h3>
                                     <h3 className='flex justify-end absolute right-0 bottom-11 text-blue-600 font-medium'>{data.price}</h3>
@@ -128,6 +129,7 @@ const Electronic = () => {
                                         <span>{data.rating}</span>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         ))}
                     </div>

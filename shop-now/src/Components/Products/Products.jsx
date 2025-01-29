@@ -350,6 +350,7 @@ const Products = () => {
                 <div>
                     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
                         {ProductsData.slice(0, visibleCount).map((data) => (
+                            <div className=" hover:-translate-y-2.5 duration-300">
                             <div
                                 data-aos="fade-up"
                                 data-aos-delay={data.aosDelay}
@@ -359,7 +360,7 @@ const Products = () => {
                                 <img
                                     src={data.img}
                                     alt="Cover image"
-                                    className="h-[280px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300"
+                                    className="h-[280px] w-[210px] object-cover rounded-md"
                                 />
                                 <div>
                                     <h3 className="font-semibold">{data.title}</h3>
@@ -375,6 +376,7 @@ const Products = () => {
                                         {data.rating4}
                                     </p>
                                 </div>
+                            </div>
                             </div>
                         ))}
                     </div>

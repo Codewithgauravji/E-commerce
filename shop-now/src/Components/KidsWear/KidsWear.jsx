@@ -373,12 +373,13 @@ const ProductsData = [
 function KidsWear() {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredProductsData, setFilteredProductsData] = useState(ProductsData);
-  
+
     const handleSearch = () => {
-      const filtered = ProductsData.filter((ProductData) =>
-        ProductData.title.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-      setFilteredProductsData(filtered);
+        const filtered = ProductsData.filter((product) =>
+            product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+            product.price.toString().includes(searchTerm) // No need for `.toLowerCase()`
+        );
+        setFilteredProductsData(filtered);
     };
 
     useEffect(() => {
@@ -395,35 +396,37 @@ function KidsWear() {
         <>
             <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
                 <Navbar />
-                <div className="mt-14 md-12">
+                <div className="mt-4 sm:mt-12 md-12">
                     <div className="container">
                         <div className="text-center mb-10 max-w-[600px] mx-auto">
-                            <h1 data-aos="fade-up" className="text-3xl font-bold">Kid's Wear</h1>
-                        <input
-                            type="text"
-                            placeholder="Search products..."
-                            value={searchTerm}
-                            onChange={(e) => setSearchTerm(e.target.value)}
-                            className='w-[60%] sm:w-[400px] mt-5 group-hover:w-[700px] transition-all duration-300 rounded-lg border border-gray-300 py-3 px-3 text-lg focus:outline-none focus:border-primary dark:border-gray-500 dark:bg-slate-800'
-                        />
-                        <button onClick={handleSearch}  className="text-center w-[100px] sm:w-[100px] ml-5   cursor-pointer  sm:ml-5 bg-primary text-white  py-3 px-5 outline-none border rounded-md">
-                            Search
-                        </button>
+                            <input
+                                data-aos="fade-up"
+                                type="text"
+                                placeholder="Search products..."
+                                className='w-[100%] sm:w-[400px] group-hover:w-[700px] transition-all duration-300 rounded-lg border border-gray-300 py-3 px-3 text-lg focus:outline-none focus:border-primary dark:border-gray-500 dark:bg-slate-800'
+                                value={searchTerm}
+                                onChange={(e) => {
+                                    setSearchTerm(e.target.value);
+                                    handleSearch(); // Calls search function on every input change
+                                }}
+                            />
+                                <h1 data-aos="fade-up" className="text-3xl mt-4 sm:mt-10 font-bold">Kid's Wear</h1>
                         </div>
                         <div>
-                            <div className="grid grid-cols-4  sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center sm:gap-5 gap-2">
+                            <div className="grid grid-cols-2  sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
                                 {filteredProductsData.slice(0, visibleCount).length > 0 ? (
                                     filteredProductsData.slice(0, visibleCount).map((data) => (
+                                    <div className='hover:-translate-y-2.5 duration-300 '>
                                         <div
                                             data-aos="fade-up"
                                             data-aos-delay={data.aosDelay}
                                             key={data.id}
-                                            className="space-y-3]"
+                                            className="space-y-3"
                                         >
                                             <img
                                                 src={data.img}
                                                 alt="Cover image"
-                                                className="h-[200px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300 sm:h-[280px] sm:w-[210px]"
+                                                className="h-[170px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300 sm:h-[280px] sm:w-[210px]"
                                             />
                                             <div>
                                                 <h3 className="font-semibold">{data.title}</h3>
@@ -436,6 +439,7 @@ function KidsWear() {
                                                     {data.rating1}
                                                 </p>
                                             </div>
+                                        </div>
                                         </div>
                                     ))
                                 ) : (
