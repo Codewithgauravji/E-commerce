@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import { FaStar } from 'react-icons/fa6';
 import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
-import Electronic from '../Products/Electronic';
 
 
 const ProductsData = [
@@ -27,7 +26,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 3,
@@ -37,7 +36,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 4,
@@ -47,7 +46,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 5,
@@ -57,7 +56,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 6,
@@ -77,7 +76,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 8,
@@ -87,7 +86,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 9,
@@ -97,7 +96,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 10,
@@ -107,7 +106,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 11,
@@ -127,7 +126,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 13,
@@ -137,7 +136,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 14,
@@ -147,7 +146,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 15,
@@ -157,7 +156,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 16,
@@ -177,7 +176,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 18,
@@ -187,7 +186,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 19,
@@ -197,7 +196,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 20,
@@ -207,7 +206,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 21,
@@ -226,7 +225,7 @@ const ProductsData = [
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 23,
@@ -236,7 +235,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 24,
@@ -246,7 +245,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 25,
@@ -256,7 +255,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 26,
@@ -276,7 +275,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 28,
@@ -288,7 +287,7 @@ const ProductsData = [
         rating4: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 29,
@@ -298,7 +297,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 30,
@@ -309,7 +308,7 @@ const ProductsData = [
         rating3: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 31,
@@ -329,7 +328,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 33,
@@ -339,7 +338,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 34,
@@ -349,7 +348,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 35,
@@ -359,7 +358,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     {
         id: 36,
@@ -379,7 +378,7 @@ const ProductsData = [
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "200",
     },
     {
         id: 38,
@@ -391,7 +390,7 @@ const ProductsData = [
         rating4: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "400",
     },
     {
         id: 39,
@@ -401,7 +400,7 @@ const ProductsData = [
         rating2: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "600",
     },
     {
         id: 40,
@@ -412,7 +411,7 @@ const ProductsData = [
         rating3: <FaStar className='text-yellow-400 ' />,
         color: "white",
         price: "2000/-",
-        aosDelay: "0",
+        aosDelay: "800",
     },
     
 ];
