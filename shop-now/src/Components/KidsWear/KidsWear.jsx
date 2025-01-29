@@ -29,7 +29,7 @@ const ProductsData = [
     {
         id: 3,
         img: "https://media.istockphoto.com/id/1170192944/photo/cheerful-superhero-spreading-cape.jpg?s=612x612&w=0&k=20&c=GzQBb52eoZ0w3RkH4XrEOvV6fkgVJZ9kskmj9-jOkXg=",
-        title: "Goggles",
+        title: "Styles Goggles",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Brown",
         price: "2400/-",
@@ -74,7 +74,7 @@ const ProductsData = [
     {
         id: 8,
         img: "https://media.istockphoto.com/id/91045910/photo/worn-out.jpg?s=612x612&w=0&k=20&c=jmcKOfEcVUU5fdMvDT_S7DPh9NQNXkECmjANtdVnIWM=",
-        title: "Dress",
+        title: "Girl Dress ",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Brown",
         price: "2100/-",
@@ -119,7 +119,7 @@ const ProductsData = [
     {
         id: 13,
         img: "https://media.istockphoto.com/id/1256472764/photo/sport-inspired-flatlay-with-denim-shorts.jpg?s=612x612&w=0&k=20&c=MtQ5IiMr4uyuIpzepeCTNXqbQvPaMFLEtzKaMfs61fQ=",
-        title: "Goggles",
+        title: " Styles Goggles",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2400/-",
@@ -164,7 +164,7 @@ const ProductsData = [
     {
         id: 18,
         img: "https://media.istockphoto.com/id/1457154043/photo/a-womans-hand-holds-a-retro-80s-yellow-rubber-sneaker-on-a-yellow-background.jpg?s=612x612&w=0&k=20&c=kKj8bS0IatVBrqR8lrWONoP2I__48TEFpMKK-xjUB_M=",
-        title: "Dress",
+        title: "Boy Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2100/-",
@@ -209,7 +209,7 @@ const ProductsData = [
     {
         id: 23,
         img: "https://media.istockphoto.com/id/1354852797/photo/female-fashion-model-teen-girl-in-down-coat-portrait-of-child-wearing-warm-clothes.jpg?s=612x612&w=0&k=20&c=PfFhyKcGKffC_YG-Lhn6BS3WsJjzhboB5qOp8FHScmU=",
-        title: "Goggles",
+        title: "Black Goggles",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2400/-",
@@ -254,7 +254,7 @@ const ProductsData = [
     {
         id: 28,
         img: "https://media.istockphoto.com/id/871273862/photo/little-cute-girl-feeling-cold.jpg?s=612x612&w=0&k=20&c=Hbz7Rip6-Hr4fxwUDSTj49St-O3BXUKUIIrK9zJlWNs=",
-        title: "Dress",
+        title: "Formal Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2100/-",
@@ -299,7 +299,7 @@ const ProductsData = [
     {
         id: 33,
         img: "https://media.istockphoto.com/id/1180369198/photo/winter-portrait-of-happy-children.jpg?s=612x612&w=0&k=20&c=XIPGl3abW8We99MgURR0S1HDu_iYCpajdP50HTnfmhk=",
-        title: "Goggles",
+        title: "Red Goggles",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2400/-",
@@ -344,7 +344,7 @@ const ProductsData = [
     {
         id: 38,
         img: "https://media.istockphoto.com/id/474947550/photo/five-year-old-boy.jpg?s=612x612&w=0&k=20&c=V8QEIjRn8fYRGJkh1fNQfiOiKJQyW_G3ZOH5NVXLxrI=",
-        title: "Dress",
+        title: "Blue Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2100/-",
@@ -404,26 +404,26 @@ function KidsWear() {
                             placeholder="Search products..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                             className='w-[60%] sm:w-[400px] mt-5 group-hover:w-[700px] transition-all duration-300 rounded-lg border border-gray-300 py-3 px-3 text-lg focus:outline-none focus:border-primary dark:border-gray-500 dark:bg-slate-800'
+                            className='w-[60%] sm:w-[400px] mt-5 group-hover:w-[700px] transition-all duration-300 rounded-lg border border-gray-300 py-3 px-3 text-lg focus:outline-none focus:border-primary dark:border-gray-500 dark:bg-slate-800'
                         />
                         <button onClick={handleSearch}  className="text-center w-[100px] sm:w-[100px] ml-5   cursor-pointer  sm:ml-5 bg-primary text-white  py-3 px-5 outline-none border rounded-md">
                             Search
                         </button>
                         </div>
                         <div>
-                            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
+                            <div className="grid grid-cols-4  sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center sm:gap-5 gap-2">
                                 {filteredProductsData.slice(0, visibleCount).length > 0 ? (
                                     filteredProductsData.slice(0, visibleCount).map((data) => (
                                         <div
                                             data-aos="fade-up"
                                             data-aos-delay={data.aosDelay}
                                             key={data.id}
-                                            className="space-y-3"
+                                            className="space-y-3]"
                                         >
                                             <img
                                                 src={data.img}
                                                 alt="Cover image"
-                                                className="h-[280px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300"
+                                                className="h-[200px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300 sm:h-[280px] sm:w-[210px]"
                                             />
                                             <div>
                                                 <h3 className="font-semibold">{data.title}</h3>
