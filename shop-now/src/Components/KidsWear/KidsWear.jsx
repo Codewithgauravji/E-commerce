@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaStar } from 'react-icons/fa6';
+import { FaHeart, FaStar } from 'react-icons/fa6';
 import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 
@@ -372,11 +372,12 @@ const ProductsData = [
 
 function KidsWear() {
     const [searchTerm, setSearchTerm] = useState("");
+    const [likedProducts, setLikedProducts] = useState({});
     const [filteredProductsData, setFilteredProductsData] = useState(ProductsData);
 
     const handleSearch = () => {
         const filtered = ProductsData.filter((product) =>
-            product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+            product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
             product.price.toString().includes(searchTerm) // No need for `.toLowerCase()`
         );
         setFilteredProductsData(filtered);
@@ -390,6 +391,10 @@ function KidsWear() {
 
     const handleShowMore = () => {
         setVisibleCount((prevCount) => prevCount + 20); // Increment visible cards by 20
+    };
+
+    const toggleLike = (id) => {
+        setLikedProducts((prev) => ({ ...prev, [id]: !prev[id] }));
     };
 
     return (
@@ -410,53 +415,67 @@ function KidsWear() {
                                     handleSearch(); // Calls search function on every input change
                                 }}
                             />
-                                <h1 data-aos="fade-up" className="text-3xl mt-4 sm:mt-10 font-bold">Kid's Wear</h1>
+                            <h1 data-aos="fade-up" className="text-3xl mt-4 sm:mt-10 font-bold">Kid's Wear</h1>
                         </div>
                         <div>
                             <div className="grid grid-cols-2  sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
                                 {filteredProductsData.slice(0, visibleCount).length > 0 ? (
                                     filteredProductsData.slice(0, visibleCount).map((data) => (
-                                    <div className='hover:-translate-y-2.5 duration-300 '>
-                                        <div
-                                            data-aos="fade-up"
-                                            data-aos-delay={data.aosDelay}
-                                            key={data.id}
-                                            className="space-y-3"
-                                        >
-                                            <img
-                                                src={data.img}
-                                                alt="Cover image"
-                                                className="h-[170px] w-[210px] object-cover rounded-md hover:-translate-y-2.5 duration-300 sm:h-[280px] sm:w-[210px]"
-                                            />
-                                            <div>
-                                                <h3 className="font-semibold">{data.title}</h3>
-                                                <div className="flex items-center gap-1">
-                                                    <h3 className="flex justify-start bottom-9 text-blue-600 font-medium cursor-pointer">
-                                                        {data.price}
-                                                    </h3>
+                                        <div>
+                                            <div
+                                                data-aos="fade-up"
+                                                data-aos-delay={data.aosDelay}
+                                                key={data.id}
+                                                className="space-y-3"
+                                            >
+                                                <div key={data.id} className="relative hover:-translate-y-1.5 duration-300">
+                                                    {/* Heart Icon for Liking */}
+                                                    <FaHeart
+                                                        className={`absolute top-2 right-2 text-2xl cursor-pointer z-10  ${likedProducts[data.id] ? "text-red-500" : "text-gray-400"
+                                                            }`}
+                                                        onClick={() => toggleLike(data.id)}
+                                                    />
+                                                    <img
+                                                        src={data.img}
+                                                        alt="Cover image"
+                                                        className="h-[170px] w-[210px] object-cover rounded-md sm:h-[280px] sm:w-[210px]"
+                                                    />
+                                                    <div>
+                                                        <h3 className="font-semibold">{data.title}</h3>
+                                                        <div className="flex items-center gap-1">
+                                                            <h3 className="flex justify-start bottom-9 text-blue-600 font-medium cursor-pointer">
+                                                                {data.price}
+                                                            </h3>
+                                                        </div>
+                                                        <p className="flex">
+                                                            {data.rating1}
+                                                        </p>
+                                                        <div className="flex justify-between mt-2">
+                                                            <button className="border py-0 px-1 rounded-md bg-lime-600 text-black sm:py-1 sm:px-3">Buy now</button>
+                                                            <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3">Add to cart</button>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <p className="flex">
-                                                    {data.rating1}
-                                                </p>
                                             </div>
-                                        </div>
                                         </div>
                                     ))
                                 ) : (
                                     <p>No products found</p>
                                 )}
                             </div>
-                            {visibleCount < filteredProductsData.length && (
-                                <div className="flex justify-center">
-                                    <button
-                                        onClick={handleShowMore}
-                                        data-aos="fade-up"
-                                        className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
-                                    >
-                                        Show More
-                                    </button>
-                                </div>
-                            )}
+                            {
+                                visibleCount < filteredProductsData.length && (
+                                    <div className="flex justify-center">
+                                        <button
+                                            onClick={handleShowMore}
+                                            data-aos="fade-up"
+                                            className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
+                                        >
+                                            Show More
+                                        </button>
+                                    </div>
+                                )
+                            }
                         </div>
                     </div>
                 </div>

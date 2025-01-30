@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import Banner from '../Banner/Banner'
 import Footer from '../Footer/Footer'
-import { FaStar } from 'react-icons/fa6';
+import { FaHeart, FaStar } from 'react-icons/fa6';
 import AOS from "aos";
 import "aos/dist/aos.css";
 const ProductsData = [
@@ -10,8 +10,7 @@ const ProductsData = [
         id: 1,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Ethnic",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -20,9 +19,7 @@ const ProductsData = [
         id: 2,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women western",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
         price: "1900/-",
         aosDelay: "200",
@@ -49,10 +46,7 @@ const ProductsData = [
         id: 5,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Red Dress ",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
         price: "4000/-",
         aosDelay: "800",
@@ -61,9 +55,7 @@ const ProductsData = [
         id: 6,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "LightGreen",
         price: "3500/-",
         aosDelay: "0",
@@ -90,8 +82,7 @@ const ProductsData = [
         id: 9,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Yello Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
         price: "1000/-",
         aosDelay: "600",
@@ -109,8 +100,7 @@ const ProductsData = [
         id: 11,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Ethnic",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -119,9 +109,7 @@ const ProductsData = [
         id: 12,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women western",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
         price: "1900/-",
         aosDelay: "200",
@@ -130,8 +118,7 @@ const ProductsData = [
         id: 13,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Goggles",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2400/-",
         aosDelay: "400",
@@ -149,8 +136,7 @@ const ProductsData = [
         id: 15,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Red Dress ",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
         price: "4000/-",
         aosDelay: "800",
@@ -168,8 +154,7 @@ const ProductsData = [
         id: 17,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Comboo",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black & Yello",
         price: "3000/-",
         aosDelay: "200",
@@ -178,9 +163,7 @@ const ProductsData = [
         id: 18,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2100/-",
         aosDelay: "400",
@@ -189,8 +172,7 @@ const ProductsData = [
         id: 19,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Yello Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
         price: "1000/-",
         aosDelay: "600",
@@ -208,8 +190,7 @@ const ProductsData = [
         id: 21,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Ethnic",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -218,9 +199,7 @@ const ProductsData = [
         id: 22,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women western",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
         price: "1900/-",
         aosDelay: "200",
@@ -229,8 +208,7 @@ const ProductsData = [
         id: 23,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Goggles",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2400/-",
         aosDelay: "400",
@@ -248,8 +226,7 @@ const ProductsData = [
         id: 25,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Red Dress ",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
         price: "4000/-",
         aosDelay: "800",
@@ -267,8 +244,7 @@ const ProductsData = [
         id: 27,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Comboo",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black & Yello",
         price: "3000/-",
         aosDelay: "200",
@@ -277,9 +253,7 @@ const ProductsData = [
         id: 28,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2100/-",
         aosDelay: "400",
@@ -288,8 +262,7 @@ const ProductsData = [
         id: 29,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Yello Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
         price: "1000/-",
         aosDelay: "600",
@@ -307,8 +280,7 @@ const ProductsData = [
         id: 31,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Ethnic",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
         price: "2000/-",
         aosDelay: "0",
@@ -317,9 +289,7 @@ const ProductsData = [
         id: 32,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women western",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
         price: "1900/-",
         aosDelay: "200",
@@ -328,8 +298,7 @@ const ProductsData = [
         id: 33,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Goggles",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
         price: "2400/-",
         aosDelay: "400",
@@ -347,8 +316,7 @@ const ProductsData = [
         id: 35,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Red Dress ",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
         price: "4000/-",
         aosDelay: "800",
@@ -367,7 +335,6 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Women Comboo",
         rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
         color: "Black & Yello",
         price: "3000/-",
         aosDelay: "200",
@@ -377,8 +344,6 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Dress",
         rating1: <FaStar className='text-yellow-400 ' />,
-        rating4: <FaStar className='text-yellow-400 ' />,
-        rating3: <FaStar className='text-yellow-400 ' />,
         color: "Brown",
         price: "2100/-",
         aosDelay: "400",
@@ -387,8 +352,7 @@ const ProductsData = [
         id: 39,
         img: "https://images.unsplash.com/photo-1621335829175-95f437384d7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVuJTIwd2VhcnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Yello Dress",
-        rating1: <FaStar className='text-yellow-400 ' />,
-        rating2: <FaStar className='text-yellow-400 ' />,
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
         price: "1000/-",
         aosDelay: "600",
@@ -406,34 +370,40 @@ const ProductsData = [
 
 
 function MensWears() {
-     const [searchTerm, setSearchTerm] = useState("");
-        const [filteredProductsData, setFilteredProductsData] = useState(ProductsData);
+    const [searchTerm, setSearchTerm] = useState("");
+     const [likedProducts, setLikedProducts] = useState({});
     
-        const handleSearch = () => {
-            const filtered = ProductsData.filter((product) =>
-                product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                product.price.toString().includes(searchTerm) // No need for `.toLowerCase()`
-            );
-            setFilteredProductsData(filtered);
-        };
+    const [filteredProductsData, setFilteredProductsData] = useState(ProductsData);
+
+    const handleSearch = () => {
+        const filtered = ProductsData.filter((product) =>
+            product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            product.price.toString().includes(searchTerm) // No need for `.toLowerCase()`
+        );
+        setFilteredProductsData(filtered);
+    };
 
 
-     useEffect(() => {
-            AOS.init(); // Initialize AOS animations
-          }, []);
-         const [visibleCount, setVisibleCount] = useState(20); // Initial visible cards
-        
-            const handleShowMore = () => {
-                setVisibleCount((prevCount) => prevCount + 20); // Increment visible cards by 5
-            };
-  return (
-    <>
-         <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+    useEffect(() => {
+        AOS.init(); // Initialize AOS animations
+    }, []);
+    const [visibleCount, setVisibleCount] = useState(20); // Initial visible cards
+
+    const handleShowMore = () => {
+        setVisibleCount((prevCount) => prevCount + 20); // Increment visible cards by 5
+    };
+
+    const toggleLike = (id) => {
+        setLikedProducts((prev) => ({ ...prev, [id]: !prev[id] }));
+    };
+    return (
+        <>
+            <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
                 <Navbar />
                 <div className="mt-4 sm:mt-12 md-12">
                     <div className="container">
                         <div className="text-center mb-10 max-w-[600px] mx-auto">
-                        <input
+                            <input
                                 data-aos="fade-up"
                                 type="text"
                                 placeholder="Search products..."
@@ -448,60 +418,71 @@ function MensWears() {
                         </div>
                         <div>
                             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
-                            {filteredProductsData.slice(0, visibleCount).length > 0 ? (
-                                filteredProductsData.slice(0, visibleCount).map((data) => (
-                                    <div className=' hover:-translate-y-2.5 duration-300'>
-                                    <div
-                                        data-aos="fade-up"
-                                        data-aos-delay={data.aosDelay}
-                                        key={data.id}
-                                        className="space-y-3"
-                                    >
-                                        <img
-                                            src={data.img}
-                                            alt="Cover image"
-                                            className="h-[170px] w-[210px] object-cover rounded-md sm:h-[280px] sm:w-[210px]"
-                                        />
+                                {filteredProductsData.slice(0, visibleCount).length > 0 ? (
+                                    filteredProductsData.slice(0, visibleCount).map((data) => (
                                         <div>
-                                            <h3 className="font-semibold">{data.title}</h3>
-                                            <div className="flex items-center gap-1">
-                                                <h3 className="flex justify-start bottom-9 text-blue-600 font-medium cursor-pointer">
-                                                    {data.price}
-                                                </h3>
+                                            <div
+                                                data-aos="fade-up"
+                                                data-aos-delay={data.aosDelay}
+                                                key={data.id}
+                                                className="space-y-3"
+                                            >
+                                                <div key={data.id} className="relative hover:-translate-y-1.5 duration-300">
+                                                    {/* Heart Icon for Liking */}
+                                                    <FaHeart
+                                                        className={`absolute top-2 right-2 text-2xl cursor-pointer z-10  ${likedProducts[data.id] ? "text-red-500" : "text-gray-400"
+                                                            }`}
+                                                        onClick={() => toggleLike(data.id)}
+                                                    />
+                                                    <img
+                                                        src={data.img}
+                                                        alt="Cover image"
+                                                        className="h-[170px] w-[210px] object-cover rounded-md sm:h-[280px] sm:w-[210px]"
+                                                    />
+                                                    <div>
+                                                        <h3 className="font-semibold">{data.title}</h3>
+                                                        <div className="flex items-center gap-1">
+                                                            <h3 className="flex justify-start bottom-9 text-blue-600 font-medium cursor-pointer">
+                                                                {data.price}
+                                                            </h3>
+                                                        </div>
+                                                        <p className="flex">
+                                                            {data.rating1}
+                                                        </p>
+                                                        <div className="flex justify-between mt-2">
+                                                            <button className="border py-0 px-1 rounded-md bg-lime-600 text-black sm:py-1 sm:px-3">Buy now</button>
+                                                            <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3">Add to cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <p className="flex">
-                                                {data.rating1}
-                                                {data.rating2}
-                                                {data.rating3}
-                                                {data.rating4}
-                                            </p>
                                         </div>
-                                    </div>
-                                    </div>
-                                ))
-                                ) : (
-                                    <p>No products found</p>
+                                            ))
+                                            ) : (
+                                            <p>No products found</p>
                                 )}
-                            </div>
-                            {visibleCount < ProductsData.length && (
-                                <div className="flex justify-center">
-                                    <button
-                                        onClick={handleShowMore}
-                                        data-aos="fade-up"
-                                        className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
-                                    >
-                                        Show More
-                                    </button>
-                                </div>
-                            )}
+                                        </div>
+                            {
+                                            visibleCount<ProductsData.length && (
+                                                <div className="flex justify-center">
+                                                    <button
+                                                        onClick={handleShowMore}
+                                                        data-aos="fade-up"
+                                                        className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
+                                                    >
+                                                        Show More
+                                                    </button>
+                                                </div>
+                                            )
+                                        }
+                        </div>
                         </div>
                     </div>
+                    <Banner />
+                    <Footer />
                 </div>
-                <Banner/>
-                <Footer/>
-            </div>
-    </>
-  )
+            </>
+            )
 }
 
-export default MensWears
+            export default MensWears
