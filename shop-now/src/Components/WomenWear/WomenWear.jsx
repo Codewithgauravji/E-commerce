@@ -42,7 +42,7 @@ const ProductsData = [
         title: "Women Ethnic",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -51,7 +51,7 @@ const ProductsData = [
         title: "Women western",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
-        price: "1900/-",
+        price: 1900,
         aosDelay: "200",
     },
     {
@@ -60,7 +60,7 @@ const ProductsData = [
         title: "Goggles",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Brown",
-        price: "2400/-",
+        price: 2400,
         aosDelay: "400",
     },
     {
@@ -69,7 +69,7 @@ const ProductsData = [
         title: "Women Ethnic",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Yello",
-        price: "1200/-",
+        price: 1200,
         aosDelay: "600",
     },
     {
@@ -78,7 +78,7 @@ const ProductsData = [
         title: "Red Dress ",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
-        price: "4000/-",
+        price: 4000,
         aosDelay: "800",
     },
     {
@@ -87,7 +87,7 @@ const ProductsData = [
         title: "Women Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "LightGreen",
-        price: "3500/-",
+        price: 3500,
         aosDelay: "0",
     },
     {
@@ -96,7 +96,7 @@ const ProductsData = [
         title: "Women Comboo",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Black & Yello",
-        price: "3000/-",
+        price: 3000,
         aosDelay: "200",
     },
     {
@@ -105,7 +105,7 @@ const ProductsData = [
         title: "Dress",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Brown",
-        price: "2100/-",
+        price: 2100,
         aosDelay: "400",
     },
     {
@@ -114,7 +114,7 @@ const ProductsData = [
         title: "Yello Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
-        price: "1000/-",
+        price: 1000,
         aosDelay: "600",
     },
     {
@@ -123,7 +123,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -132,7 +132,7 @@ const ProductsData = [
         title: "Women Ethnic",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -141,7 +141,7 @@ const ProductsData = [
         title: "Women western",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
-        price: "1900/-",
+        price: 1900,
         aosDelay: "200",
     },
     {
@@ -150,7 +150,7 @@ const ProductsData = [
         title: "Goggles",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
-        price: "2400/-",
+        price: 2400,
         aosDelay: "400",
     },
     {
@@ -159,7 +159,7 @@ const ProductsData = [
         title: "Women Ethnic",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Yello",
-        price: "1200/-",
+        price: 1200,
         aosDelay: "600",
     },
     {
@@ -168,7 +168,7 @@ const ProductsData = [
         title: "Red Dress ",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
-        price: "4000/-",
+        price: 4000,
         aosDelay: "800",
     },
     {
@@ -177,7 +177,7 @@ const ProductsData = [
         title: "Women Dress",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "LightGreen",
-        price: "3500/-",
+        price: 3500,
         aosDelay: "0",
     },
     {
@@ -186,7 +186,7 @@ const ProductsData = [
         title: "Women Comboo",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black & Yello",
-        price: "3000/-",
+        price: 3000,
         aosDelay: "200",
     },
     {
@@ -195,7 +195,7 @@ const ProductsData = [
         title: "Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
-        price: "2100/-",
+        price: 2100,
         aosDelay: "400",
     },
     {
@@ -204,7 +204,7 @@ const ProductsData = [
         title: "Yello Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
-        price: "1000/-",
+        price: 1000,
         aosDelay: "600",
     },
     {
@@ -213,7 +213,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -222,7 +222,7 @@ const ProductsData = [
         title: "Women Ethnic",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -231,7 +231,7 @@ const ProductsData = [
         title: "Women western",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Red",
-        price: "1900/-",
+        price: 1900,
         aosDelay: "200",
     },
     {
@@ -240,7 +240,7 @@ const ProductsData = [
         title: "Goggles",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
-        price: "2400/-",
+        price: 2400,
         aosDelay: "400",
     },
     {
@@ -249,7 +249,7 @@ const ProductsData = [
         title: "Women Ethnic",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Yello",
-        price: "1200/-",
+        price: 1200,
         aosDelay: "600",
     },
     {
@@ -258,7 +258,7 @@ const ProductsData = [
         title: "Red Dress ",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Black",
-        price: "4000/-",
+        price: 4000,
         aosDelay: "800",
     },
     {
@@ -267,7 +267,7 @@ const ProductsData = [
         title: "Women Dress",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "LightGreen",
-        price: "3500/-",
+        price: 3500,
         aosDelay: "0",
     },
     {
@@ -276,7 +276,7 @@ const ProductsData = [
         title: "Women Comboo",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Black & Yello",
-        price: "3000/-",
+        price: 3000,
         aosDelay: "200",
     },
     {
@@ -285,7 +285,7 @@ const ProductsData = [
         title: "Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Brown",
-        price: "2100/-",
+        price: 2100,
         aosDelay: "400",
     },
     {
@@ -294,7 +294,7 @@ const ProductsData = [
         title: "Yello Dress",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
         color: "Yello",
-        price: "1000/-",
+        price: 1000,
         aosDelay: "600",
     },
     {
@@ -303,7 +303,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -312,7 +312,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -321,7 +321,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -330,7 +330,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -339,7 +339,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -348,7 +348,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -357,7 +357,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -366,7 +366,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -375,7 +375,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -384,7 +384,7 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
     {
@@ -393,15 +393,15 @@ const ProductsData = [
         title: "Women Jeens",
         rating1: <FaStar className='text-yellow-400 ' />,
         color: "Blue",
-        price: "1600/-",
+        price: 1600,
         aosDelay: "800",
     },
 ];
 
 
-function WomenWear() {
+function WomenWear({ AddToCart }) {
     const [searchTerm, setSearchTerm] = useState("");
-     const [likedProducts, setLikedProducts] = useState({});
+    const [likedProducts, setLikedProducts] = useState({});
     const [filteredProductsData, setFilteredProductsData] = useState(ProductsData);
 
     const handleSearch = () => {
@@ -426,7 +426,7 @@ function WomenWear() {
         setLikedProducts((prev) => ({ ...prev, [id]: !prev[id] }));
     };
     return (
-    <>
+        <>
             <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
                 <Navbar />
                 <div className="mt-4 sm:mt-12 md-12">
@@ -480,38 +480,38 @@ function WomenWear() {
                                                         </p>
                                                         <div className="flex justify-between mt-2">
                                                             <button className="border py-0 px-1 rounded-md bg-lime-600 text-black sm:py-1 sm:px-3">Buy now</button>
-                                                            <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3">Add to cart</button>
+                                                            <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3" onClick={() => AddToCart(data)}>Add to cart</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                            ))
-                                            ) : (
-                                            <p>No products found</p>
+                                    ))
+                                ) : (
+                                    <p>No products found</p>
                                 )}
-                                        </div>
+                            </div>
                             {
-                                            visibleCount<ProductsData.length && (
-                                                <div className="flex justify-center">
-                                                    <button
-                                                        onClick={handleShowMore}
-                                                        data-aos="fade-up"
-                                                        className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
-                                                    >
-                                                        Show More
-                                                    </button>
-                                                </div>
-                                            )
-                                        }
-                        </div>
+                                visibleCount < ProductsData.length && (
+                                    <div className="flex justify-center">
+                                        <button
+                                            onClick={handleShowMore}
+                                            data-aos="fade-up"
+                                            className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md"
+                                        >
+                                            Show More
+                                        </button>
+                                    </div>
+                                )
+                            }
                         </div>
                     </div>
-                    <Banner />
-                    <Footer />
                 </div>
-            </>
-            )
+                <Banner />
+                <Footer />
+            </div>
+        </>
+    )
 }
 
-            export default WomenWear
+export default WomenWear

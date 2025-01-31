@@ -11,7 +11,7 @@ import Testimonials from './Testimonials/Testimonials'
 import Footer from './Footer/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-function Home() {
+function Home({ AddToCart,cart }) {
     const [orderPopup, setOrderPopup] = useState(false)
 
     const handleOrderPopup = () => {
@@ -30,12 +30,12 @@ function Home() {
     return (
         <>
             <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
-                <Navbar handleOderPopup={handleOrderPopup} />
+                <Navbar handleOderPopup={handleOrderPopup} cart={cart} />
                 <Hero handleOrderPopup={handleOrderPopup} />
-                <Products />
-                <MensWear />
+                <Products AddToCart={AddToCart}/>
+                <MensWear AddToCart={AddToCart}/>
                 <TopProducts handleOrderPopup={handleOrderPopup} />
-                <Electronic />
+                <Electronic AddToCart={AddToCart}/>
                 <Banner />
                 <Subscribe />
                 <Testimonials />

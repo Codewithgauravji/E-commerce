@@ -13,8 +13,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -22,8 +21,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -31,8 +29,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -40,8 +37,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -49,8 +45,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -58,8 +53,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -67,8 +61,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -76,8 +69,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -85,8 +77,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -94,8 +85,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -103,8 +93,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -112,8 +101,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -121,8 +109,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -130,8 +117,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -139,8 +125,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -148,8 +133,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -157,8 +141,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -166,8 +149,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -175,8 +157,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -184,8 +165,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -193,8 +173,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -202,8 +181,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -211,8 +189,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -220,8 +197,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -229,8 +205,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -238,8 +213,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -247,8 +221,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -256,8 +229,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -265,8 +237,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -274,8 +245,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -283,8 +253,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -292,8 +261,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -301,8 +269,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -310,8 +277,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -319,8 +285,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
     {
@@ -328,8 +293,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "0",
     },
     {
@@ -337,8 +301,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "200",
     },
     {
@@ -346,8 +309,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "400",
     },
     {
@@ -355,8 +317,7 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "600",
     },
     {
@@ -364,14 +325,13 @@ const ProductsData = [
         img: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww",
         title: "Electric",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "white",
-        price: "2000/-",
+        price: 2000,
         aosDelay: "800",
     },
 
 ];
 
-function Electronics() {
+function Electronics({ AddToCart }) {
     const [imageUrl, setImageUrl] = useState("");
     const [likedProducts, setLikedProducts] = useState({});
 
@@ -459,7 +419,7 @@ function Electronics() {
                                                         </p>
                                                         <div className="flex justify-between mt-2">
                                                             <button className="border py-0 px-1 rounded-md bg-lime-600 text-black sm:py-1 sm:px-3">Buy now</button>
-                                                            <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3">Add to cart</button>
+                                                            <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3 " onClick={() => AddToCart(data)}>Add to cart</button>
                                                         </div>
                                                     </div>
                                                 </div>

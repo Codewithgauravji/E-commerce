@@ -5,6 +5,7 @@ import { FaCaretDown, FaBars, FaTimes } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import DarkMode from './DarkMode';
+import Cart from '../Cart';
 
 const Menu = [
     {
@@ -52,9 +53,8 @@ const Dropdownlist = [
     }
 ];
 
-const Navbar = ({ handleOderPopup }) => {
+const Navbar = ({ handleOderPopup, cart }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     return (
         <div className='shadow-md bg-white dark:bg-slate-800 transition-all duration-200 relative z-40'>
             {/* Top Bar */}
@@ -81,8 +81,8 @@ const Navbar = ({ handleOderPopup }) => {
                             onClick={() => handleOderPopup()}
                             className='bg-gradient-to-t from-primary to-secondary text-white py-1 px-4 rounded-full flex items-center gap-3 group'
                         >
-                            <span className='hidden sm:block group-hover:block transition-all duration-200'>Order</span>
-                            <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
+                            {/* <span className='hidden sm:block group-hover:block transition-all duration-200'>Order</span> */}
+                            <Link to='/Cart'><span className='bg-red-600 rounded-full text-sm px-1 text-white drop-shadow-sm'>{cart.length}</span><FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" /></Link>
                         </button>
                         {/* Dark Mode Toggle */}
                         <DarkMode />

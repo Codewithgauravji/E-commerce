@@ -103,7 +103,7 @@ const ProductsData = [
         aosDelay: "800",
     },
 ]
-const Electronic = () => {
+const Electronic = ({AddToCart}) => {
     const [likedProducts, setLikedProducts] = React.useState({});
     const toggleLike = (id) => {
         setLikedProducts((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -142,7 +142,7 @@ const Electronic = () => {
                                             </p>
                                             <div className="flex justify-between mt-2">
                                                 <button className="border py-0 px-1 rounded-md bg-lime-600 text-black sm:py-1 sm:px-3">Buy now</button>
-                                                <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3">Add to cart</button>
+                                                <button className="border py- px-1 rounded-md  bg-lime-600 text-black sm:py-1 sm:px-3" onClick={() => AddToCart(data)}>Add to cart</button>
                                             </div>
                                         </div>
                                     </div>
