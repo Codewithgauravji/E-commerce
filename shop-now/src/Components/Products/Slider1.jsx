@@ -23,7 +23,14 @@ const Slider1 = () => {
             price: "From ₹39,999*",
         },
         {
-            id: 2,
+            id: 3,
+            img: "https://images.unsplash.com/photo-1738273473785-99c1fc498c14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D",
+            title: "Premium Devices",
+            description: "Get the best performance with the latest Android devices",
+            price: "From ₹39,999*",
+        },
+        {
+            id: 4,
             img: "https://images.unsplash.com/photo-1738273473785-99c1fc498c14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D",
             title: "Premium Devices",
             description: "Get the best performance with the latest Android devices",
