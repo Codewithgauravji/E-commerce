@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 
 function Cart({ cart, handleInc, handleDec, handleRemove }) {
+    // Calculate total price of all items in the cart
+    const totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
+    const shippingCost = 10; // For example, assuming standard shipping is $10.00
+    const totalCost = totalPrice + shippingCost; // Total cost includes shipping
+
     return (
+        <>
         <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
             <Navbar />
             <div className="container mx-auto mt-10 px-4 ">
@@ -66,19 +72,19 @@ function Cart({ cart, handleInc, handleDec, handleRemove }) {
                         <h1 className="font-semibold text-lg border-b pb-4">Order Summary</h1>
                         <div className="flex justify-between mt-6 mb-4">
                             <span className="font-semibold text-sm uppercase">item {cart.length}</span>
-                            <span className="font-semibold text-sm">$590</span>
+                            <span className="font-semibold text-sm">Rs.{totalPrice}</span>
                         </div>
 
                         <div>
                             <label className="font-medium text-sm">Shipping</label>
-                            <select className="block p-2 text-gray-600 w-full text-sm border rounded mt-2">
-                                <option>Standard shipping - $10.00</option>
+                            <select className="block p-2 text-gray-600 w-full text-sm border rounded mt-2  dark:bg-gray-900 dark:text-white duration-200">
+                                <option>Standard shipping - Rs.10.00</option>
                             </select>
                         </div>
 
                         <div className="mt-6">
                             <label className="font-semibold text-sm">Promo Code</label>
-                            <input type="text" placeholder="Enter your code" className="p-2 text-sm w-full border rounded mt-2" />
+                            <input type="text" placeholder="Enter your code" className="p-2 text-sm w-full border rounded mt-2  dark:bg-gray-900 dark:text-white duration-200" />
                         </div>
                         <button className="w-full mt-4 bg-red-500 hover:bg-red-600 text-white py-2 text-sm rounded">
                             Apply
@@ -87,7 +93,7 @@ function Cart({ cart, handleInc, handleDec, handleRemove }) {
                         <div className="border-t mt-6 pt-4">
                             <div className="flex justify-between text-sm font-semibold">
                                 <span>Total cost</span>
-                                <span>$600</span>
+                                <span>Rs.{totalCost}</span>
                             </div>
                             <button className="w-full mt-4 bg-indigo-500 hover:bg-indigo-600 text-white py-2 text-sm rounded">
                                 Checkout
@@ -97,6 +103,7 @@ function Cart({ cart, handleInc, handleDec, handleRemove }) {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

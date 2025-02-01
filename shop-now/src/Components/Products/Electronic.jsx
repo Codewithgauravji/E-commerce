@@ -16,9 +16,8 @@ const ProductsData = [
         id: 1,
         img: Img1,
         title: "Mixer Grinder",
-        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Brown",
-        price: "5000/-",
+        rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />], 
+        price: 5000,
         aosDelay: "0",
     },
     {
@@ -26,8 +25,7 @@ const ProductsData = [
         img: Img2,
         title: "Ear buds",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Black",
-        price: "1999/-",
+        price: 1999,
         aosDelay: "200",
     },
     {
@@ -35,8 +33,7 @@ const ProductsData = [
         img: Img3,
         title: "Headphone",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Gray",
-        price: "4000/-",
+        price: 4000,
         aosDelay: "400",
     },
     {
@@ -44,8 +41,7 @@ const ProductsData = [
         img: Img4,
         title: "Ceiling Fan",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Gray",
-        price: "2300/-",
+        price: 2300,
         aosDelay: "600",
     },
     {
@@ -53,8 +49,7 @@ const ProductsData = [
         img: Img5,
         title: "Refrigerator",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Pink",
-        price: "19000/-",
+        price: 19000,
         aosDelay: "800",
     },
     {
@@ -62,8 +57,7 @@ const ProductsData = [
         img: Img6,
         title: "Gaming Remote",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Black",
-        price: "7000/-",
+        price: 7000,
         aosDelay: "0",
     },
     {
@@ -71,8 +65,7 @@ const ProductsData = [
         img: Img7,
         title: "LED Tv",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Black",
-        price: "30000/-",
+        price: 30000,
         aosDelay: "200",
     },
     {
@@ -80,8 +73,7 @@ const ProductsData = [
         img: Img8,
         title: "Phones",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "Golden",
-        price: "42000/-",
+        price: 42000,
         aosDelay: "400",
     },
     {
@@ -89,8 +81,7 @@ const ProductsData = [
         img: Img9,
         title: "Air Conditioner",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "White",
-        price: "35000/-",
+        price: 35000,
         aosDelay: "600",
     },
     {
@@ -98,8 +89,7 @@ const ProductsData = [
         img: Img10,
         title: "Watch",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        color: "White",
-        price: "3200/-",
+        price: 3200,
         aosDelay: "800",
     },
 ]

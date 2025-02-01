@@ -11,6 +11,7 @@ import Testimonials from './Testimonials/Testimonials'
 import Footer from './Footer/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Slider1 from './Products/slider1'
 function Home({ AddToCart,cart }) {
     const [orderPopup, setOrderPopup] = useState(false)
 
@@ -33,6 +34,7 @@ function Home({ AddToCart,cart }) {
                 <Navbar handleOderPopup={handleOrderPopup} cart={cart} />
                 <Hero handleOrderPopup={handleOrderPopup} />
                 <Products AddToCart={AddToCart}/>
+                <Slider1/>
                 <MensWear AddToCart={AddToCart}/>
                 <TopProducts handleOrderPopup={handleOrderPopup} />
                 <Electronic AddToCart={AddToCart}/>

@@ -17,7 +17,7 @@ const ProductsData = [
         img: Img1,
         title: "Pant & Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "1000/-",
+        price: 1000,
         aosDelay: "0",
     },
     {
@@ -25,7 +25,7 @@ const ProductsData = [
         img: Img2,
         title: "T-Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "500/-",
+        price: 500,
         aosDelay: "200",
     },
     {
@@ -33,7 +33,7 @@ const ProductsData = [
         img: Img3,
         title: "Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "700/-",
+        price: 700,
         aosDelay: "400",
     },
     {
@@ -41,7 +41,7 @@ const ProductsData = [
         img: Img4,
         title: "Man's Jeens",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "900/-",
+        price: 900,
         aosDelay: "600",
     },
     {
@@ -49,7 +49,7 @@ const ProductsData = [
         img: Img5,
         title: "Pant & Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "1300/-",
+        price: 1300,
         aosDelay: "800",
     },
     {
@@ -57,7 +57,7 @@ const ProductsData = [
         img: Img6,
         title: "Formal Pant & Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "1200/-",
+        price: 1200,
         aosDelay: "0",
     },
     {
@@ -65,7 +65,7 @@ const ProductsData = [
         img: Img7,
         title: "Formal Pant & Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "1200/-",
+        price: 1200,
         aosDelay: "200",
     },
     {
@@ -73,7 +73,7 @@ const ProductsData = [
         img: Img8,
         title: "White Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "600/-",
+        price: 600,
         aosDelay: "400",
     },
     {
@@ -81,7 +81,7 @@ const ProductsData = [
         img: Img9,
         title: "Formal Pant & Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "1200/-",
+        price: 1200,
         aosDelay: "600",
     },
     {
@@ -89,7 +89,7 @@ const ProductsData = [
         img: Img10,
         title: "Formal Pant & Shirt",
         rating1: [<FaStar className='text-yellow-400 ' />, <FaStar className='text-yellow-400 ' />],
-        price: "1200/-",
+        price: 1200,
         aosDelay: "800",
     },
 ]
