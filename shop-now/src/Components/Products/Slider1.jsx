@@ -60,7 +60,7 @@ const Slider1 = () => {
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id}>
                         <div className=" p-6 rounded-lg shadow-lg text-center  dark:bg-gray-900 dark:text-white duration-200">
-                            <img src={slide.img} alt={slide.title} className="mx-auto mb-4" />
+                            <img src={slide.img} alt={slide.title} className="mx-auto rounded-md mb-4" />
                             <h2 className="text-xl font-bold text-gray-800">{slide.title}</h2>
                             <p className="text-gray-600">{slide.description}</p>
                             <p className="text-lg font-semibold text-green-600 mt-2">
