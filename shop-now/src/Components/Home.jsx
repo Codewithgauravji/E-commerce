@@ -12,6 +12,8 @@ import Footer from './Footer/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Slider1 from './Products/Slider1'
+import Banner1 from './Products/Banner1'
+import Banner2 from './Products/Banner2'
 // import Slider1 from './Products/slider1'
 function Home({ AddToCart,cart }) {
     const [orderPopup, setOrderPopup] = useState(false)
@@ -39,9 +41,10 @@ function Home({ AddToCart,cart }) {
                 <MensWear AddToCart={AddToCart}/>
                 <TopProducts handleOrderPopup={handleOrderPopup} />
                 <Electronic AddToCart={AddToCart}/>
-                <Slider1/>
+                <Banner2/>
                 <Banner />
                 <Subscribe />
+                <Banner1/>
                 <Testimonials />
                 <Footer />
             </div>

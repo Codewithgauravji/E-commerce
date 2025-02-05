@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 
 function Cart({ cart, handleInc, handleDec, handleRemove }) {
     // Calculate total price of all items in the cart
     const totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
-    const shippingCost = 10; // For example, assuming standard shipping is $10.00
-    const totalCost = totalPrice + shippingCost; // Total cost includes shipping
+
+    // State to manage selected shipping cost
+    const [shippingCost, setShippingCost] = useState(10); // Default to Rs.10.00
+
+    // Total cost includes price of items + shipping cost
+    const totalCost = totalPrice + shippingCost;
+
+    // Handle change in shipping cost
+    const handleShippingChange = (e) => {
+        const selectedShippingCost = parseInt(e.target.value, 10);
+        setShippingCost(selectedShippingCost);
+    };
 
     return (
         <>
@@ -77,8 +87,16 @@ function Cart({ cart, handleInc, handleDec, handleRemove }) {
 
                         <div>
                             <label className="font-medium text-sm">Shipping</label>
-                            <select className="block p-2 text-gray-600 w-full text-sm border rounded mt-2  dark:bg-gray-900 dark:text-white duration-200">
-                                <option>Standard shipping - Rs.10.00</option>
+                            <select 
+                                className="block p-2 text-gray-600 w-full text-sm border rounded mt-2 dark:bg-gray-900 dark:text-white duration-200"
+                                value={shippingCost}
+                                onChange={handleShippingChange}
+                            >
+                                <option value={0}>Standard shipping - Free</option>
+                                <option value={10}>Standard shipping - Rs.10.00</option>
+                                <option value={50}>Standard shipping - Rs.50.00</option>
+                                <option value={100}>Standard shipping - Rs.100.00</option>
+                                <option value={200}>Standard shipping - Rs.200.00</option>
                             </select>
                         </div>
 
